@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OTP Page</title>
+                <link rel="icon" type="image/png" href="icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+                <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+                <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+                <script type="text/javascript" src="../js/jquery.blockUI.js"></script>
+                <script type="text/javascript" src="../js/otpCheck.js"></script>
+
+	</head>
+
+<body onload="loadData();" >
+
+	<div class="header">
+
+		<div class="control-align1">
+
+			<div class="img-control">
+				<img src="talent.png"/>
+					
+			</div>
+
+		</div>
+	</div>
+<div id="loader"></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<div class="otp">
+		<p>Enter Your OTP</p> <br>
+		<input type="number" id="otp" placeholder="Enter OTP Here" class="ipt2">
+	
+		<table>
+			<tr>
+				<td><input type="submit" class="verify" value="verify" onClick="return validateOTP();">
+					</td>
+			</tr>
+                 </table>
+                <br> 
+               <h3> We just send an otp on </h3><h4 id="emailid" ></h4> 
+        </div>
+    </div>
+</body>
+</html>

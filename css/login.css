@@ -1,0 +1,151 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.header{
+	width: 100%;
+	height: 85px;
+	background-color: teal;
+}
+
+.control-align{
+	width: 90%;
+	height: 50px;
+
+}
+
+.img-control{
+	float: left;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(back-img.jpg);
+	background-size: cover;
+    background-position: center;
+}
+.img-control img{
+	width: 200px;
+	height: 75px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 40px; 
+}
+
+.create{
+	float: right;
+	background-color: transparent;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+	padding: 7px;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-top: 35px;
+	margin-right: 30px;
+}
+
+.create:hover{
+	background-color: black;
+	cursor: pointer;
+}
+
+.login-btn{
+	float: right;
+	background-color: transparent;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+	padding: 7px;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-top: 35px;
+	margin-right: 10px;
+	width: 80px;
+}
+
+.login-btn:hover{
+	background-color: black;
+        cursor: pointer;
+}
+.login-btn2{
+        width: 150px;
+	background-color: transparent;
+	color: white;
+	font-family: Arial;
+	font-size: 22px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-left: 80px;
+	margin-top: 28px;
+        
+}
+
+.login-btn2:hover{
+	background-color: white;
+	font-size: 22px;
+        color:black;
+}
+
+.login{
+	position: relative;
+	background-color: transparent;
+	max-width: 450px;
+	height: 350px;
+	border-radius: 15px;
+	border: 5px solid white;
+	text-align: center;
+	margin-left: 38%;
+	margin-top: 120px;        
+}
+
+.login p{
+	font-size: 35px;
+	font-family: Arial;
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+        color: lightpink;
+}
+
+
+
+.ipt1{
+	float: left;
+	width: 280px;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	border: 1px solid white;    
+	font-size: 21px;
+	font-family: Arial;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 80px;
+        margin-top: 15px;
+        background-color: transparent;
+        color:white;
+        
+}
+
+.update{
+	width: 150px;
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	font-size: 25px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-left: 80px;
+	margin-top: 28px;
+        
+}
+
+.update:hover{
+	background-color: bisque;
+	font-size: 28px;
+        color: black;
+        cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forget password</title>
+                <link rel="icon" type="image/png" href="icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+                <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+                <script type="text/javascript" src="../js/form.js"></script>
+                <script type="text/javascript" src="../js/forget.js"></script>
+	</head>
+
+<body>
+
+	<div class="header">
+
+		<div class="control-align">
+
+			<div class="img-control">
+				<img src="talent.png"/>
+					
+			</div>
+
+			<div class="login">
+			   <table>
+					<tr>
+						<td><p>Email or Phone</p></td>
+						<td><p>Password</p></td>
+					</tr>
+
+					<tr>
+                                            <td><input type="text" class="inputtxt" id="username" required></td>
+							
+                                            <td><input type="password" class="inputtxt" id="psw" required>
+						</td>
+						<td><input type="submit" class="login-btn" value="Log In" onClick="return loginCheck();"></td>
+                                                <td><input type="submit" class="login-btn" value="Sign Up" onClick="return signupPage();"></td>
+
+                                        </tr>
+					
+				</table>
+                	</div>
+
+	</div>
+
+	<div class="forget">
+		<p>Enter Your Email Id To Recover Your Account:</p> <br>
+		<input type="text" placeholder="Enter Your Email" class="ipt3" id="f_username">
+	
+		<table>
+			<tr>
+				<td><input type="submit" class="forget-btn" value="submit" onclick="reset();">
+					</td>
+			</tr>
+		</table>
+	</div>
+					
+</body>
+</html>

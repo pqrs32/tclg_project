@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="icon" type="image/png" href="/template/icon.png">
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+        <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/form.js"></script>
+    </head>
+
+    <body onload="showSlides();">
+
+
+        <div class="header">
+
+            <div class="control-align">
+
+                <div class="img-control">
+                    <img src="/template/talent.png"/>
+
+                </div>  
+                <div class="login">
+                    <table>
+                        <tr>
+                            <td><p>Email or Phone</p></td>
+                            <td><p>Password</p></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="inputtxt" id="username" required></td>
+
+                            <td><input type="password" class="inputtxt" id="psw" required>
+                            </td>
+                            <td><input type="submit" class="login-btn" value="Log In" onClick="return loginCheck();"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/template/forget.html" class="change">Forgot account?</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="left-content">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="/img/1.jpg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/img/2.jpg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/img/3.png" >
+                </div>
+                <div class="mySlides fade">
+                    <img src="/img/4.jpg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/img/5.jpg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/img/6.jpg" >
+                </div>
+                <div class="mySlides fade">
+                    <img src="/img/7.jpg" >
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-content">
+            Create an account
+            <table>
+                <tr>
+                    <td><input class="ipt"  id="fname" type="text" placeholder="First Name*" required /></td>
+                    <td><input class="ipt0" id="lname" type="text" placeholder="Last Name" /></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="text" id="email" placeholder="Email Address*" class="ipt1" required/></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="number" id="phone" placeholder="Mobile *" class="ipt1" required/></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="password" id="password" placeholder="Password *" class="ipt1" required/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="password" id="c_password" placeholder="Confirm Password *" class="ipt1" required/></td>
+                </tr>
+            </table>    
+
+            <label id="l_dob" > Date of Birth *</label>
+            <input type="date"  id="dob" class="date">
+
+            <br> <label id="l_gen" > Gender *</label>
+            <input type="radio" name="gender" id="gen" checked><label id="radio_1">Male</label>
+            <input type="radio" name="gender" id="gen1" ><label id="radio_2">Female</label>
+            <br>	
+            <input type="submit" class="signup-btn" value="Sign up" onClick="return signupCheck();">
+        </div>
+
+    </body>
+</html>

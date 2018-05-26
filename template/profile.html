@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <title>LATENT TALENT</title>
+        <link rel="icon" type="image/png" href="icon.png">
+        <link rel=stylesheet type=text/css href="../css/styleprofile.css"/>
+        <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/profile.js"></script>
+        <script type="text/javascript" src="../js/home.js"></script>
+
+    </head>
+    <body onload="loadData();">
+
+        <div class="pg-background">
+            <div class="centercontent">    
+                <p>What's your talent ?-)</p>   
+                <div class="p0">
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                <div class="p1">
+                    <h1>Rohit : My sketch</h1>
+                       <img src="kutta.jpg">
+                </div>
+
+                <div class="header">
+                </div>
+
+
+                <div class="post">
+
+                    <div id="postpos" class="post"><input type="submit" id="buttonpost" value="POST"/></div>
+                    <div id="postboxpos" class="post"><textarea placeholder="Add your post here ;)" id="postbox"></textarea></div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <div class="label">
+
+            <img src="logo.jpg"/>
+
+            <div class="menu">
+                <ul>	  
+                    <li><a onclick="logout();" class="logout">LogOut</a><li>
+                    <li class="active"><a href="#2" class="MyProfile">MyProfile</a><li>
+
+                    <li ><a href="home.html" class="home">Home</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="leftcontent">
+            <div id="s1" class="options">MY PROFILE </div>
+
+             <img id="p_img" alt="User_Profile_Pic" height="42" width="42">
+
+            <table>
+                <th>USER DETAILS</th>
+                <tr><td>NAME :</td>  <td id="p_name"></td></tr>
+                <tr><td>EMAIL :</td> <td id="p_email"></td></tr>
+                <tr><td>MOBILE :</td><td id="p_phone"></td></tr>
+                <tr><td>DOB :</td>   <td id="p_dob"></td></tr>
+                <tr><td>GENDER :</td><td id="p_gen"></td></tr>
+                <tr id="star"><td>STARS :</td><td> * * * * * </td></tr>
+                <button ID="EDIT" type="button">EDIT DETAILS</button>
+
+            </table>  
+
+        </div>
+
+
+    </div> 
+
+    <div class="rightcontent">
+        <div id="s3" class="options">TOP RANKERS </div>
+        <form>
+            <fieldset>
+                <legend>FIELD</legend>
+                <p>
+                    <label>SELECT :</label>
+                    <select id="mylist">
+                        <option value="1">Explore All</option>
+                        <option value="2">Song</option>
+                        <option value="3">Dances</option>
+                        <option value="4">Arts & crafts</option>
+                        <option value="5">Writing skills</option>
+                        <option value="6">Photography skills</option>
+                        <option value="7">Acting skills</option>
+                        <option value="8">Cooking recipes</option>
+                        <option value="9">Playing instrument</option>
+                        <option value="10">Others</option>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+
+
+    </div>
+</div>	 
+
+
+</div>
+</body>
+</html>
