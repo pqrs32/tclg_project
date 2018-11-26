@@ -1,1 +1,1 @@
-Its our college project frent-end code.
+Its our college project front-end code.
